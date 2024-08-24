@@ -1,0 +1,106 @@
+@import url('https://fonts.google.com/specimen/Poppins?query=popp');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+section{
+       display:flex;  
+      justify-content: center;   
+     align-items:center;  
+     flex-direction:column; 
+    min-height:100vh;
+     background:rgb(255, 183, 39);
+}
+h1{
+    font-size:90px; 
+    color:rgb(6, 38, 27);
+}
+p{
+    font-size:24px;
+    color:rgb(32, 36, 11);
+    font-weight: 600;
+}
+
+.sec-2 p {
+color:rgb(11, 65, 19);
+}
+/* .sec-2{
+    background-color:#dc4549;
+} */
+.sec-3 p {
+    color:rgb(76, 43, 5);
+}
+/* .sec-3{
+    background-color:#dc4549;
+} */
+.sec-4 p {
+   color:rgb(83, 5, 5);
+}
+/* .sec-4{
+    background-color:#dc4549;
+} */
+.sec-5 p {
+color:rgb(220, 218, 174);
+}
+/* .sec-5{
+    background-color:#dc4549;
+} */
+.navbar{
+    display:flex;
+    justify-content: space-between; 
+    flex-direction: row-reverse;
+    align-items: center;
+    padding:1em;
+    background-color: #ecceb0;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition:  0.5s;
+}
+.Brand{
+    
+    font-size: 1.5em;
+}
+.Brand a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color:rgb(36, 63, 159);
+    font-weight: bold;
+}
+.Terms{
+    display:flex;
+    
+    padding:0px;
+    align-content: center;
+}
+.Terms a{
+    color:rgb(53, 46, 244);
+    margin-right:1.5em;
+    background-color: rgb(255, 255, 255);
+    padding:15px 20px;
+    align-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+.navbar:hover{
+    color: rgb(118, 33, 2); 
+}
+.navbar .Terms a:hover{
+    color:black;
+}
+.navbar .Brand a:hover{
+    color:black;
+}
+
+.navbar a:hover,.navbar a.active{
+   background-color: #976dce;
+    color:rgb(0, 11, 72);
+}
